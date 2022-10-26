@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>WeatherApp</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <form class="find-form">
+                <input type="text" class="find__input" placeholder="Найти город">
+                <input type="button" class="find__button">
+            </form>
+            <div class="tabs">
+                <div id="tab__01" class="tab__item tab-now">
+
+                </div>
+                <div id="tab__02" class="tab__item tab-details">
+
+                </div>
+                <div id="tab__03" class="tab__item tab-forecast">
+
+                </div>
+            </div>
+            <div class="added-locations">
+                <p class="added-locations__title">
+                    Избранное:
+                </p>
+            </div>
+            <div class="added-cities">
+                <ul class="added-cities__list">
+
+                </ul>
+            </div>
+            <a href="#tab__01" class="tab tab-now__button active-tab">Сейчас</a>
+            <a href="#tab__02" class="tab tab-details__button">В деталях</a>
+            <a href="#tab__03" class="tab tab-forecast__button">Прогноз</a>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
